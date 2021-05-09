@@ -13,7 +13,7 @@ services:
       - mongo
 
   mongo:
-    image: mongo
+    image: webhippie/mongodb:latest
     volumes:
       - mongo-db:/data/db
 
